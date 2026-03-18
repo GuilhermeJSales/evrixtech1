@@ -18,3 +18,17 @@ export interface ServicesHighlights {
   description: string;
   color: string;
 }
+
+export interface Plans {
+  id: number;
+  name: string;
+  tagline: string;
+  description: string;
+  price: string;
+  priceNote: string;
+  features: string[];
+  limitations: string[];
+  cta: string;
+  popular: boolean;
+  color: string;
+}
