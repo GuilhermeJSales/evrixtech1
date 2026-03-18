@@ -11,9 +11,17 @@ export interface HeroData {
   whatsapp: string;
 }
 
+export type ServicesIcons =
+  | "Code"
+  | "RefreshCw"
+  | "TrendingUp"
+  | "Target"
+  | "Palette"
+  | "Rocket"
+  | "BarChart3";
 export interface ServicesHighlights {
   id: number;
-  icon: string;
+  icon: ServicesIcons;
   title: string;
   description: string;
   color: string;
