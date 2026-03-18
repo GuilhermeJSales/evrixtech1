@@ -6,11 +6,13 @@ import {
   Palette,
   Rocket,
   BarChart3,
+  LucideIcon,
 } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { servicesHighlights } from "@/data/landingData";
+import { ServicesIcons } from "../types/lading";
 
-const iconMap = {
+const iconMap: Record<ServicesIcons, LucideIcon> = {
   Code,
   RefreshCw,
   TrendingUp,
