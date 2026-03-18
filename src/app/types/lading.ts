@@ -19,6 +19,7 @@ export interface ServicesHighlights {
   color: string;
 }
 
+export type PlanColors = "blue" | "cyan" | "coral";
 export interface Plans {
   id: number;
   name: string;
@@ -30,5 +31,5 @@ export interface Plans {
   limitations: string[];
   cta: string;
   popular: boolean;
-  color: string;
+  color: PlanColors;
 }

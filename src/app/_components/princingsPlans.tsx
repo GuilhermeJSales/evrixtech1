@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { plansData } from "@/data/landingData";
 import { ArrowRight, Check, Crown } from "lucide-react";
+import { PlanColors } from "../types/lading";
 
 export default function PricingsPlans() {
   const handlePlanClick = (planName: string) => {
@@ -14,7 +15,7 @@ export default function PricingsPlans() {
     );
   };
 
-  const getColorClass = (color: string, isPopular: boolean) => {
+  const getColorClass = (color: PlanColors, isPopular: boolean) => {
     const colors = {
       blue: {
         badge: "bg-blue-500/10 text-blue-300 border-blue-500/30",
