@@ -41,3 +41,19 @@ export interface Plans {
   popular: boolean;
   color: PlanColors;
 }
+
+export type DevServicesIcons =
+  | "Rocket"
+  | "ShoppingCart"
+  | "Building2"
+  | "Briefcase"
+  | "Layers"
+  | "Smartphone";
+export interface DevServices {
+  id: number;
+  icon: DevServicesIcons;
+  title: string;
+  description: string;
+  features: string[];
+  idealFor: string;
+}

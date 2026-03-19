@@ -1,9 +1,15 @@
-import { HeroData, Plans, ServicesHighlights } from "@/app/types/lading";
+import {
+  DevServices,
+  HeroData,
+  Plans,
+  ServicesHighlights,
+} from "@/app/types/lading";
 
 export const heroData: HeroData = {
   title: "Transforme Sua Presença Digital",
   subtitle: "Desenvolvimento Web Premium + Tráfego Pago",
-  description: "Sites Profissionais que convertem visitantes em clientes...",
+  description:
+    "Sites profissionais que convertem visitantes em clientes. Criação, manutenção contínua e estratégias de tráfego pago para empresas que buscam resultados reais.",
   cta: {
     primary: "Falar com Especialista",
     secondary: "Ver Nossos Planos",
@@ -106,5 +112,52 @@ export const plansData: Plans[] = [
     cta: "Solicitar Proposta",
     popular: false,
     color: "coral",
+  },
+];
+
+export const developmentServices: DevServices[] = [
+  {
+    id: 1,
+    icon: "Rocket",
+    title: "Landing Pages",
+    description:
+      "Páginas de alta conversão focadas em um objetivo específico. Design persuasivo que transforma visitantes em leads e clientes.",
+    features: [
+      "Design focado em conversão",
+      "Formulários otimizados",
+      "Botão do WhatsApp",
+      "SEO Copywriting",
+    ],
+    idealFor:
+      "Campanhas de marketing, lançamentos de produtos, captação de leads",
+  },
+  {
+    id: 2,
+    icon: "Building2",
+    title: "Sites Institucionais",
+    description:
+      "Presença online profissional para sua empresa. Apresente seus serviços, valores e diferenciais de forma impactante.",
+    features: [
+      "Design profissional e moderno",
+      "Seções customizáveis",
+      "Blog integrado",
+      "Formulários de contato",
+    ],
+    idealFor: "Empresas, prestadores de serviços, consultórios, escritórios",
+  },
+  {
+    id: 3,
+    icon: "Briefcase",
+    title: "Portfólios",
+    description:
+      "Mostre seu trabalho da melhor forma. Galerias, cases e projetos organizados para impressionar seus clientes.",
+    features: [
+      "Galeria de projetos",
+      "Filtros por categoria",
+      "Lightbox profissional",
+      "Responsivo e elegante",
+    ],
+    idealFor:
+      "Designers, fotógrafos, arquitetos, agências criativas, freelancers",
   },
 ];
