@@ -57,3 +57,32 @@ export interface DevServices {
   features: string[];
   idealFor: string;
 }
+
+export interface TrafficService {
+  title: string;
+  subtitle: string;
+  description: string;
+  pricing: {
+    model: string;
+    example: string;
+    minInvestment: string;
+  };
+  features: string[];
+  platforms: string[];
+  cta: string;
+}
+
+export type IconsProcess = "Target" | "Palette" | "Rocket" | "BarChart3";
+export interface ProcessSteps {
+  number: string;
+  title: string;
+  description: string;
+  icon: IconsProcess;
+}
+
+export type IconsStats = "CheckCircle2" | "Heart" | "TrendingUp" | "Clock";
+export interface StatsData {
+  number: string;
+  label: string;
+  icon: IconsStats;
+}

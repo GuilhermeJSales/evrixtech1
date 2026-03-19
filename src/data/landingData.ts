@@ -2,7 +2,10 @@ import {
   DevServices,
   HeroData,
   Plans,
+  ProcessSteps,
   ServicesHighlights,
+  StatsData,
+  TrafficService,
 } from "@/app/types/lading";
 
 export const heroData: HeroData = {
@@ -159,5 +162,81 @@ export const developmentServices: DevServices[] = [
     ],
     idealFor:
       "Designers, fotógrafos, arquitetos, agências criativas, freelancers",
+  },
+];
+
+export const trafficService: TrafficService = {
+  title: "Tráfego Pago Estratégico",
+  subtitle: "Gestão Completa de Anúncios",
+  description:
+    "Atraia os clientes certos com campanhas otimizadas no Google Ads, Facebook e Instagram. Pagamento baseado em resultados.",
+  pricing: {
+    model: "30% do valor investido em mídia",
+    example: "Investimento de R$ 1.000 = R$ 300 de gestão",
+    minInvestment: "Investimento mínimo: R$ 500/mês",
+  },
+  features: [
+    "Planejamento estratégico de campanhas",
+    "Criação de anúncios e copys otimizados",
+    "Segmentação avançada de público",
+    "Gestão e otimização diária",
+    "Análise de ROI e conversões",
+    "Ajustes contínuos baseados em dados",
+  ],
+  platforms: ["Google Ads", "Meta Ads", "Instagram Ads"],
+  cta: "Começar Campanha",
+};
+
+export const processSteps: ProcessSteps[] = [
+  {
+    number: "01",
+    title: "Análise & Estratégia",
+    description:
+      "Entendemos seu negócio, público-alvo e objetivos para criar uma estratégia personalizada que gera resultados reais.",
+    icon: "Target",
+  },
+  {
+    number: "02",
+    title: "Design & Desenvolvimento",
+    description:
+      "Criamos um site que reflete a essência da sua marca, com design moderno e funcionalidades que convertem visitantes em clientes.",
+    icon: "Palette",
+  },
+  {
+    number: "03",
+    title: "Otimização & Lançamento",
+    description:
+      "Otimizamos cada detalhe para performance e SEO antes do lançamento. Seu site pronto para atrair e converter desde o primeiro dia.",
+    icon: "Rocket",
+  },
+  {
+    number: "04",
+    title: "Crescimento Contínuo",
+    description:
+      "Acompanhamento constante com atualizações, melhorias e estratégias de tráfego para garantir crescimento sustentável do seu negócio online.",
+    icon: "BarChart3",
+  },
+];
+
+export const statsData: StatsData[] = [
+  {
+    number: "150+",
+    label: "Projetos Entregues",
+    icon: "CheckCircle2",
+  },
+  {
+    number: "98%",
+    label: "Clientes Satisfeitos",
+    icon: "Heart",
+  },
+  {
+    number: "5.2x",
+    label: "ROI Médio em Tráfego",
+    icon: "TrendingUp",
+  },
+  {
+    number: "24/7",
+    label: "Suporte Enterprise",
+    icon: "Clock",
   },
 ];
