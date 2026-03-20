@@ -91,3 +91,21 @@ export interface FaqData {
   question: string;
   answer: string;
 }
+
+export interface CompanyInfo {
+  name: string;
+  tagline: string;
+  phone: string;
+  phoneFormatted: string;
+  whatsappLink: string;
+  email: string;
+  social: {
+    instagram: string;
+    linkedin: string;
+    facebook: string;
+  };
+  address: {
+    city: string;
+    state: string;
+  };
+}

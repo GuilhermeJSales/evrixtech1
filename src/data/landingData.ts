@@ -1,4 +1,5 @@
 import {
+  CompanyInfo,
   DevServices,
   FaqData,
   HeroData,
@@ -274,3 +275,21 @@ export const faqData: FaqData[] = [
       "Você pode cancelar a qualquer momento, sem multas ou taxas de cancelamento. Pedimos apenas um aviso prévio de 30 dias. Acreditamos em manter nossos clientes satisfeitos com resultados, não com contratos amarrados. Seu site continuará funcionando normalmente após o cancelamento.",
   },
 ];
+
+export const companyInfo: CompanyInfo = {
+  name: "EvrixTech",
+  tagline: "Desenvolvimento Web Premium & Tráfego Estratégico",
+  phone: "+55 11 96168-3295",
+  phoneFormatted: "(11) 96168-3295",
+  whatsappLink: "https://wa.me/5511961683295",
+  email: "contato@evrixtech.com.br",
+  social: {
+    instagram: "https://instagram.com/evrixtech",
+    linkedin: "https://linkedin.com/company/evrixtech",
+    facebook: "https://facebook.com/evrixtech",
+  },
+  address: {
+    city: "São Paulo",
+    state: "SP",
+  },
+};
