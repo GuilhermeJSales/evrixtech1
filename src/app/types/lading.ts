@@ -86,3 +86,8 @@ export interface StatsData {
   label: string;
   icon: IconsStats;
 }
+
+export interface FaqData {
+  question: string;
+  answer: string;
+}

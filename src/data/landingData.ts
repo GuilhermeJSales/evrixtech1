@@ -1,5 +1,6 @@
 import {
   DevServices,
+  FaqData,
   HeroData,
   Plans,
   ProcessSteps,
@@ -238,5 +239,38 @@ export const statsData: StatsData[] = [
     number: "24/7",
     label: "Suporte Enterprise",
     icon: "Clock",
+  },
+];
+
+export const faqData: FaqData[] = [
+  {
+    question: "Quanto tempo leva para criar meu site?",
+    answer:
+      "Depende do plano escolhido. Sites do plano Básico ficam prontos em até 7 dias úteis. O plano Profissional leva de 10 a 15 dias, e o Enterprise pode variar de 3 a 6 semanas, dependendo da complexidade e customizações desejadas. Trabalhamos com prazos realistas para garantir qualidade máxima.",
+  },
+  {
+    question: "O que está incluído na manutenção mensal?",
+    answer:
+      "A manutenção inclui: atualizações de conteúdo (textos, imagens, informações), correções técnicas, atualizações de segurança, backups regulares, monitoramento de performance, otimização contínua de SEO, e suporte prioritário via WhatsApp. No plano Enterprise, também incluímos consultoria estratégica mensal.",
+  },
+  {
+    question: "Como funciona a gestão de tráfego pago?",
+    answer:
+      "Cobramos 30% do valor que você investe em mídia. Por exemplo: se você investe R$ 1.000 em anúncios, nossa taxa de gestão é R$ 300. Isso inclui planejamento estratégico, criação de campanhas, otimização diária, relatórios semanais e análise de resultados. Investimento mínimo de R$ 500/mês em mídia.",
+  },
+  {
+    question: "Posso trocar de plano depois?",
+    answer:
+      "Sim! Você pode fazer upgrade ou downgrade a qualquer momento. No caso de upgrade, você paga apenas a diferença proporcional. Para downgrades, as mudanças entram em vigor no próximo ciclo de cobrança. Estamos aqui para se adaptar ao crescimento do seu negócio.",
+  },
+  {
+    question: "Vocês trabalham com quais tipos de empresas?",
+    answer:
+      "Atendemos empresas de todos os tamanhos e segmentos: prestadores de serviços, e-commerces, consultórios, escritórios, lojas locais, SaaS, startups, e muito mais. Nossa abordagem é personalizada para cada tipo de negócio, sempre focando em gerar resultados reais e mensuráveis.",
+  },
+  {
+    question: "E se eu precisar cancelar o serviço de manutenção?",
+    answer:
+      "Você pode cancelar a qualquer momento, sem multas ou taxas de cancelamento. Pedimos apenas um aviso prévio de 30 dias. Acreditamos em manter nossos clientes satisfeitos com resultados, não com contratos amarrados. Seu site continuará funcionando normalmente após o cancelamento.",
   },
 ];

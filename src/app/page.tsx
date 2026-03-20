@@ -1,4 +1,5 @@
 import DevelopmentServices from "./_components/developmentServices";
+import Faq from "./_components/faq";
 import Hero from "./_components/hero";
 import PricingsPlans from "./_components/princingsPlans";
 import ProcessSteps from "./_components/processSteps";
@@ -16,6 +17,7 @@ export default function Home() {
       <ProcessSteps />
       <Stats />
       <Services />
+      <Faq />
     </>
   );
 }
