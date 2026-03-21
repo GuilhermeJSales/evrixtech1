@@ -48,7 +48,6 @@ export default function Footer() {
       toast({
         title: "Campos obrigatórios",
         description: "Por favor, preencha todos os campos.",
-        variant: "destructive",
       });
       return;
     }
